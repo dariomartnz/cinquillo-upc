@@ -2,7 +2,7 @@ PAUTAS PARA EL CINQUILLO
 
 - Siempre 4 jugadores
 - 40 cartas
-- 4 jugadores
+- Jugadores
 - 4 Tipo de cartas (ORO) (COP) (ESP) (BAS)
 - Cartas del 12-10 7-1 (baraja española)
 - ¡Uno de los 4 jugadores simpre va a tener el 5 de OROS!
@@ -17,6 +17,11 @@ printf_reset_color();]
 printf("texto");
 printf_reset_color();]
 /* Para texto en color */
+
+Para simplificar:
+
+- 4 jugadores (Siempre)
+- Eliminar el 8-9 en vez del 11 y 12 
 
 0 = Blanco || 1 = Rojo || 2 = Verde || 3 = Amarillo || 4 = Azul || 5 = Magenta || 6 = Cian
 
