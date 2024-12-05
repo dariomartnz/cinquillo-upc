@@ -18,6 +18,11 @@ printf_reset_color();]
 
 0 = Blanco || 1 = Rojo || 2 = Verde || 3 = Amarillo || 4 = Azul || 5 = Magenta || 6 = Cian
 
+Archivos C que hay que tener:
+- Baraja
+- Partida
+- Jugadores
+
 Trabajos en realizacion:
 - Raul:
 - Darío:
