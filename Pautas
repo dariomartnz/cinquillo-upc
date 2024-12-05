@@ -2,10 +2,24 @@
 - 4 jugadores
 - 4 Tipo de cartas (ORO) (COP) (ESP) (BAS)
 - Cartas del 12-10 7-1 (baraja española)
+- 4 colores para cada tipo #include "colores.h" :
+
+[printf_color_negrita(); 
+printf("texto\n");
+printf_reset_color();]
+/* Pare texto en negrita */
+
+[printf_color_num(0-14);
+printf("texto");
+printf_reset_color();]
+/* Para texto en color */
+
+0 = Blanco || 1 = Rojo || 2 = Verde || 3 = Amarillo || 4 = Azul || 5 = Magenta || 6 = Cian
+
+- 
 -
 -
 -
 -
 -
--
--
+ 
