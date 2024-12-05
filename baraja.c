@@ -9,30 +9,43 @@ typedef struct {
 } t_carta;
 
 void generar_baraja(t_carta baraja[]) {
-
-    char tipo[] = {'C', 'O', 'B', 'E'};  // Los 4 tipos: Copas, Oros, Bastos, Espadas
-    int aux = 0;
-    int i, j;
-   
-    	for (i = 0; i < 4; i++) {          // recorre los cuatro tipos de cartas
-        	for (j = 1; j <= 7; j++) {     // para cada tipo los numeros de kas cartas
-        	
-        	baraja[aux].numero = j;
-        	baraja[aux].tipo = tipo[i];
-        	aux++;
-        }
-    }
+    int num, pal;
+	char car_pal;
+	
+	printf("\n");
+	printf("[ORO] [COP] [ESP] [BAS] \n"); 
+	for ( num = 12 ; num >= 1 ; num -- ) {
+		if ( num == 9 ) {
+			num = 7;
+		}
+		for ( pal = OROS ; pal <= BASTOS ; pal ++ ) {
+			switch (pal) {
+				case OROS:
+					car_pal = CAR_O;
+					break;
+				case COPAS:
+					car_pal = CAR_C;
+					break;
+				case ESPADAS:
+					car_pal = CAR_E;
+					break;
+				case BASTOS:
+					car_pal = CAR_B;
+					break;
+			}
+			printf("[%c%2d] ", car_pal, num);
+		}	
+		printf("\n");
+	}
+	printf("\n");
 }
-
-void imrpimir_baraja(t_carta baraja[])
-	int
-
+	
 
 
 int main () {
 
 t_carta baraja[NUM_CARTAS]; //defonir las 40 cartas
-
+	
 generar_baraja(baraja);
 }
         
